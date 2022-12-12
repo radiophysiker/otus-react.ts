@@ -16,9 +16,7 @@ const question = (): Promise<null> =>
         console.log(`Result: ${result}`);
       }
 
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      resolve();
+      resolve(null);
     });
   });
 
