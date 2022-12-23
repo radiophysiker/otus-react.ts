@@ -1,0 +1,7 @@
+.history
+.vscode
+.idea
+node_modules
+storybook-static
+dist
+/*.*
